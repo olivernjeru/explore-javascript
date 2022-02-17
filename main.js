@@ -1,2 +1,4 @@
 // running javascript //
-console.log("Hello from JavaScript");
+// console.log("Hello from JavaScript");
+
+alert('Hello World')
