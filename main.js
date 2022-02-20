@@ -57,21 +57,22 @@
 
 //String Properties and Methods
 // A method is a function that is associated with an object
-const s = 'Hello World!'
+// const s = 'Hello World!'
 // To check the number of characters in a string, we use a property such as below which does not have parenthesis, a method is the one that has parenthesis
-console.log(s.length);
+// console.log(s.length);
 // To change to Uppercase, we use the toUppercase method such as below:
-console.log(s.toUpperCase());
+// console.log(s.toUpperCase());
 // To change to Lowercase, we use the toLowercase method such as below:
-console.log(s.toLowerCase());
+// console.log(s.toLowerCase());
 // To pull a substring from a string and also change it to uppercase. The code below prints from 0 to 4
-console.log(s.substring(0, 5));
+// console.log(s.substring(0, 5));
 // To split a string into an array by letters, we use the method below
-console.log(s.split('')); // The result will be 12 individual characters including the space
+// console.log(s.split('')); // The result will be 12 individual characters including the space
 // To split a string into an array by values, we use the method below
-const snew = 'technology, computer, it, code'; 
-console.log(snew.split(', ')) // The result will be 4 values only
-// Next items
+// const snew = 'technology, computer, it, code'; 
+// console.log(snew.split(', ')) // The result will be 4 values only
+
+// Arrays
 
 
 
