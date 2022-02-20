@@ -72,7 +72,38 @@
 // const snew = 'technology, computer, it, code'; 
 // console.log(snew.split(', ')) // The result will be 4 values only
 
-// Arrays
+// Arrays and Comments
+// Multiline Comments are as below:
+/* multiline 
+comment
+*/
+// Arrays are variables that hold multiple values
+// Ways of creating arrays:
+// 1. Using an array constructor(the oldest method) as shown below:
+// const numbers = new Array(1, 2, 3, 4, 5); // We use the new keyword which is a constructor then something after it
+// console.log(numbers);
+// For the most part we do it as below:
+// const fruits = ['apples', 'mangoes', 'bananas', 'oranges', 10, true, null, undefined]; // and we can mutliple data types within an array in Javascript too as opposed to other languages that require you to have the same data type in an array and also in some case set a predetermined number of contents in the array before declaring them
+// const fruits = ['mangoes', 'apples', 'bananas'];
+// To access one item in the array
+// console.log(fruits[1]);
+// If we want to add more values but not reassign, we do as show below;
+// fruits[8] = "pears";
+//console.log(fruits[8]); 
+// To push a value on to the end
+// fruits.push['cocoa'];
+// To add a value on to the beginning
+// fruits.unshift['strawberries'];
+// To take the last value off
+// fruits.pop();
+// To check if something is an array
+// console.log(Array.isArray(fruits)); 
+// To get the index of a certain value
+// console.log(fruits.indexOf('mangoes'))
+// console.log(fruits);
+
+// Object Literals
+
 
 
 
