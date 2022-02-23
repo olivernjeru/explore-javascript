@@ -94,7 +94,64 @@ comment
 // console.log(fruits.indexOf('mangoes'))
 // console.log(fruits);
 
-// Object Literals
+// Object Literals are basically key value pairs
+/* const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['music', 'movies', 'sports'],
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA',
+    },
+} */
+// If you were to use an alert box you would get object object as the output
+// console.log(person);
+//To access a single value
+// console.log(person.firstName);
+//To access multiple values
+// console.log(person.lastName, person.age, person.hobbies);
+//To display a specific value in an object array
+// console.log(person.hobbies[1]);
+// destructuring. NB: It is kind of advanced
+// const {firstName, lastName, address: {city}} = person;
+// console.log(firstName);
+// console.log(city);
+// person.email = 'john@gmail.com'
+// console.log(person);
+
+/* const todos = [
+    {
+        id: 1,
+        text: 'Take out the trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist appt',
+        isCompleted: false
+    }
+] */
+/* console.log(todos); 
+console.log(todos[1].text);
+// To convert the above JS code into JSON, maybe we wanna send something to the server
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON); */
+
+// For Loop
+// Has an iterator, condition and increamental value
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+    console.log(`For Loop Number: ${i}`);
+}
+
+
 
 
 
