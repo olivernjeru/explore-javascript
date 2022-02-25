@@ -153,18 +153,22 @@ console.log(todoJSON); */
 
 // While Loop
 // we set the variable outside the loop
-let i = 0;
+/* let i = 0;
 while(i <= 10); {
     console.log(`While Loop Number: ${i}`);
     i++;
-}
+} */
 
 // How to loop through arrays
-for(let i = 0; i < todos.length; i++) {
+/* for(let i = 0; i < todos.length; i++) {
     console.log(`For Loop Number: ${i}`);
     console.log(todos[i].text);
 }
 // Using a for of loop
 for(let todo of todos) {
-    console.log(todo);
-}
+    console.log(todo.text);
+} */
+
+// High order array methods
+// forEach which just loops through them, map which allows us to create a new array from an array, filter which will allow us to create a new array based on a condition
+todos.forEach();
