@@ -121,7 +121,7 @@ comment
 // person.email = 'john@gmail.com'
 // console.log(person);
 
-/* const todos = [
+const todos = [
     {
         id: 1,
         text: 'Take out the trash',
@@ -137,7 +137,7 @@ comment
         text: 'Dentist appt',
         isCompleted: false
     }
-] */
+] 
 /* console.log(todos); 
 console.log(todos[1].text);
 // To convert the above JS code into JSON, maybe we wanna send something to the server
@@ -146,11 +146,25 @@ console.log(todoJSON); */
 
 // For Loop
 // Has an iterator, condition and increamental value
-for(let i = 0; i <= 10; i++) {
+/* for(let i = 0; i <= 10; i++) {
     console.log(i);
     console.log(`For Loop Number: ${i}`);
-}
-
-// If Loop
+} */
 
 // While Loop
+// we set the variable outside the loop
+let i = 0;
+while(i <= 10); {
+    console.log(`While Loop Number: ${i}`);
+    i++;
+}
+
+// How to loop through arrays
+for(let i = 0; i < todos.length; i++) {
+    console.log(`For Loop Number: ${i}`);
+    console.log(todos[i].text);
+}
+// Using a for of loop
+for(let todo of todos) {
+    console.log(todo);
+}
