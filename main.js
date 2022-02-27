@@ -171,4 +171,10 @@ for(let todo of todos) {
 
 // High order array methods
 // forEach which just loops through them, map which allows us to create a new array from an array, filter which will allow us to create a new array based on a condition
-todos.forEach();
+todos.forEach(function(todo) {
+    console.log(todo.text);
+}); 
+
+/* const njiru = "handsome";
+const skintype = njiru;
+console.log("Njiru's skintype is ",skintype,"."); */
