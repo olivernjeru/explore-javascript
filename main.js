@@ -174,7 +174,3 @@ for(let todo of todos) {
 todos.forEach(function(todo) {
     console.log(todo.text);
 }); 
-
-/* const njiru = "handsome";
-const skintype = njiru;
-console.log("Njiru's skintype is ",skintype,"."); */
