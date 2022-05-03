@@ -174,3 +174,8 @@ for(let todo of todos) {
 todos.forEach(function(todo) {
     console.log(todo.text);
 }); 
+
+//mapping
+todos.map(function(todo) {
+    console.log(todo.text);
+});
